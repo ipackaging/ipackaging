@@ -465,18 +465,13 @@ img.img-circle.team-img {
 	color: #1c424d;
 }
 #team-section i.fa {
-	font-size: 16px;
+	font-size: 40px;
 	color: #faeaab;
 	margin-top: 10px;
 }
 #team-section i.fa:hover {
 	color: #1c424d;
 }
-
-.fa-custom-lg {
-	font-size: 4em;	
-}
-
 .owl-theme .owl-controls .owl-page span {
 	display: block;
 	width: 10px;
