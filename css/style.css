@@ -41,6 +41,7 @@ a:hover, a:focus {
 ul, ol {
 	list-style: none;
 }
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -471,6 +472,11 @@ img.img-circle.team-img {
 #team-section i.fa:hover {
 	color: #1c424d;
 }
+
+.fa-custom-lg {
+	font-size: 4em;	
+}
+
 .owl-theme .owl-controls .owl-page span {
 	display: block;
 	width: 10px;
