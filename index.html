@@ -729,9 +729,17 @@
 <script>
     function initMap() {
       var mapDiv = document.getElementById('map');
+      var myLatLng = {lat: 28.7833665, lng: 77.1355316};
+      
       var map = new google.maps.Map(mapDiv, {
-        center: {lat: 28.7833665, lng: 77.1355316},
+        center: myLatLng,
         zoom: 16
+      });
+      
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Innovative Packagings'
       });
     }
 </script>
