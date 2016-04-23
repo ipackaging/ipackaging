@@ -41,7 +41,10 @@ a:hover, a:focus {
 ul, ol {
 	list-style: none;
 }
-
+#map {
+	width: 500px;
+	height: 400px;
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
