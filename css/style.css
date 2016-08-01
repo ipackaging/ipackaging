@@ -249,6 +249,7 @@ ul.cat li {
 ol.type li {
 	display: inline-block;
 	margin-left: 20px;
+	line-height: 3;
 }
 ol.type li a {
 	color: #51633d;
