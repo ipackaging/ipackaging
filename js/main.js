@@ -132,7 +132,7 @@ function main() {
     ======================================*/	
 
 	new WOW().init();
-	//smoothScroll
+	smoothScroll
 	smoothScroll.init();
 
 
